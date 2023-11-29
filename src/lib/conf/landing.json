@@ -2,428 +2,99 @@
   "headerPhoto": "prev/users/template1/hero.jpg",
   "sections": [
     {
-      "header": "accomodation",
+      "header": "deep-western-sword-fern",
       "columnCount": 2,
+      "padding": "10vw",
       "blocks": [
         {
-          "kind": "photo",
+          "kind": "text",
           "content": {
-            "photoPath": "prev/users/template1/kitchen_2.jpg",
-            "alt": "kitchen",
-            "height": "40vh"
+            "ref": "huge-winterberry"
           }
         },
         {
-          "kind": "photo",
+          "kind": "calendar",
+          "acco": "06c9987c-6cc9-4730-bf28-9c712b87edb1",
           "content": {
-            "photoPath": "prev/users/template1/living_2.jpg",
-            "alt": "living"
+            "accoPath": "06c9987c-6cc9-4730-bf28-9c712b87edb1",
+            "calUrl": "http://localhost:54321/storage/v1/object/public/ical/fe71870f-d9c3-40fb-9a3d-b5ecf99b68ee/06c9987c-6cc9-4730-bf28-9c712b87edb1"
           }
         }
       ]
     },
     {
-      "header": "", 
-      "columnCount": 2,
+      "header": "informal-coast-polypody",
+      "columnCount": 1,
+      "padding": "10vw",
       "blocks": [
         {
-          "kind": "text",
+          "kind": "pricing",
+          "acco": "06c9987c-6cc9-4730-bf28-9c712b87edb1",
           "content": {
-            "minHeight": "2rem",
-            "maxFontSize": "2rem",
-            "ref": "amneties"
-          }
-        },
-        {
-          "kind": "amneties-core",
-          "content": {
-            "core": {
-              "peopleMin": 2,
-              "peopleMax": 5,
-              "size": 65,
-              "bedRooms": 2,
-              "bathRooms": 2,
-              "pets": false,
-              "wifi": true,
-              "smoking": false,
-              "ac": true,
-              "tv": true,
-              "parking": false
+            "accoPath": "06c9987c-6cc9-4730-bf28-9c712b87edb1",
+            "columns": [
+              "timeRange",
+              "firstNight",
+              "eachNight",
+              "peopleNum",
+              "extraPerson",
+              "minNumNights"
+            ],
+            "footnote": "circular-whiskey-cherry",
+            "global": {
+              "kind": "entry",
+              "perNightPrice": {
+                "amount": 8000,
+                "currency": {
+                  "code": "EUR",
+                  "base": 10,
+                  "exponent": 2
+                }
+              },
+              "minNumberOfNights": 3,
+              "firstNightPrice": {
+                "amount": 8000,
+                "currency": {
+                  "code": "EUR",
+                  "base": 10,
+                  "exponent": 2
+                }
+              }
             }
           }
         }
       ]
     },
     {
-      "header": "pricing",
+      "header": "lively-poisonflower",
       "columnCount": 1,
+      "padding": "0",
       "blocks": [
         {
-          "kind": "pricing",
+          "kind": "photo-gallery",
           "content": {
-            "columns": [
-              "timeRange",
-              "firstNight",
-              "eachNight",
-              "extraPerson",
-              "minNumNights"
-            ],
-            "entries": [
+            "photos": [
               {
-                "kind": "range",
-                "from": "2022-12-20T00:00:00.000+01:00",
-                "to": "2023-01-06T00:00:00.000+01:00",
-                "entry": {
-                  "kind": "entry",
-                  "firstNightPrice": {
-                    "amount": 8000,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "perNightPrice": {
-                    "amount": 3500,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice1": {
-                    "amount": 1000,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice2": {
-                    "amount": 500,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice3": {
-                    "amount": 0,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonText1": "adults",
-                  "additionalPersonText2": "7-14",
-                  "additionalPersonText3": "0-6",
-                  "minNumberOfNights": 3
-                }
+                "photoPath": "prev/users/template1/building_6.jpg",
+                "alt": ""
               },
               {
-                "kind": "range",
-                "from": "2023-01-01T00:00:00.000+01:00",
-                "to": "2023-03-24T00:00:00.000+01:00",
-                "entry": {
-                  "kind": "entry",
-                  "firstNightPrice": {
-                    "amount": 5500,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "perNightPrice": {
-                    "amount": 3500,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice1": {
-                    "amount": 1000,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice2": {
-                    "amount": 500,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice3": {
-                    "amount": 0,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonText1": "adults",
-                  "additionalPersonText2": "7-14",
-                  "additionalPersonText3": "0-6",
-                  "minNumberOfNights": 3
-                }
+                "photoPath": "prev/users/template1/living_1.jpg",
+                "alt": ""
               },
               {
-                "kind": "range",
-                "from": "2023-03-25T00:00:00.000+01:00",
-                "to": "2023-06-30T00:00:00.000+02:00",
-                "entry": {
-                  "kind": "entry",
-                  "firstNightPrice": {
-                    "amount": 5000,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "perNightPrice": {
-                    "amount": 3000,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice1": {
-                    "amount": 1000,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice2": {
-                    "amount": 500,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice3": {
-                    "amount": 0,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonText1": "adults",
-                  "additionalPersonText2": "7-14",
-                  "additionalPersonText3": "0-6",
-                  "minNumberOfNights": 3
-                }
+                "photoPath": "prev/users/template1/bed_1.jpg",
+                "alt": ""
               },
               {
-                "kind": "range",
-                "from": "2023-07-01T00:00:00.000+02:00",
-                "to": "2023-08-31T00:00:00.000+02:00",
-                "entry": {
-                  "kind": "entry",
-                  "firstNightPrice": {
-                    "amount": 8500,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "perNightPrice": {
-                    "amount": 5500,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice1": {
-                    "amount": 1000,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice2": {
-                    "amount": 500,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice3": {
-                    "amount": 0,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonText1": "adults",
-                  "additionalPersonText2": "7-14",
-                  "additionalPersonText3": "0-6",
-                  "minNumberOfNights": 7
-                }
+                "photoPath": "prev/users/template1/kitchen_1.jpg",
+                "alt": ""
               },
               {
-                "kind": "range",
-                "from": "2023-09-01T00:00:00.000+02:00",
-                "to": "2023-12-20T00:00:00.000+01:00",
-                "entry": {
-                  "kind": "entry",
-                  "firstNightPrice": {
-                    "amount": 5500,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "perNightPrice": {
-                    "amount": 3500,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice1": {
-                    "amount": 1000,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice2": {
-                    "amount": 500,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice3": {
-                    "amount": 0,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonText1": "adults",
-                  "additionalPersonText2": "7-14",
-                  "additionalPersonText3": "0-6",
-                  "minNumberOfNights": 3
-                }
-              },
-              {
-                "kind": "range",
-                "from": "2023-12-21T00:00:00.000+01:00",
-                "to": "2024-01-05T00:00:00.000+01:00",
-                "entry": {
-                  "kind": "entry",
-                  "firstNightPrice": {
-                    "amount": 8500,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "perNightPrice": {
-                    "amount": 5500,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice1": {
-                    "amount": 1000,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice2": {
-                    "amount": 500,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonPrice3": {
-                    "amount": 0,
-                    "currency": {
-                      "code": "EUR",
-                      "base": 10,
-                      "exponent": 2
-                    },
-                    "scale": 2
-                  },
-                  "additionalPersonText1": "adults",
-                  "additionalPersonText2": "7-14",
-                  "additionalPersonText3": "0-6",
-                  "minNumberOfNights": 5
-                }
+                "photoPath": "prev/users/template1/town_1.jpg",
+                "alt": ""
               }
-            ],
-            "footnote": "pricing-footnote-acco-cornflower"
-          }
-        }
-      ]
-    },
-    {
-      "columnCount": 1,
-      "blocks": [
-        {
-          "kind": "calendar",
-          "content": {
-            "calUrl": "https://calendar.google.com/calendar/ical/0512a05fa900ee7118de13a14d5244d3ebe2eba056af845e76996e6b9c4f885c%40group.calendar.google.com/public/basic.ics"
+            ]
           }
         }
       ]
@@ -436,18 +107,15 @@
         {
           "kind": "text",
           "content": {
-            "ref": "landing_town_html"
+            "ref": "grotesque-carolina-azolla"
           }
         },
         {
           "kind": "photo",
           "content": {
-            "photoPath": "prev/users/template1/church_koserow.jpg",
-            "alt": "town_church",
-            "attribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Koserowkirche.jpg\">Unukorno</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons",
-            "link": "http://www.koserow.de",
-            "external": true,
-            "height": "40vh"
+            "photoPath": "prev/users/template1/town_3.jpg",
+            "alt": "huge-indian-hemp",
+            "height": "30vh"
           }
         }
       ]
@@ -460,9 +128,9 @@
         {
           "kind": "weather",
           "content": {
-            "header1": "koserow",
-            "header2": "weather",
-            "location": "54d0514d00/koserow/"
+            "header1": "weatherHeader1",
+            "header2": "weatherHeader2",
+            "location": "53d8813d92/usedom/"
           }
         }
       ]
@@ -477,37 +145,37 @@
           "content": {
             "photos": [
               {
+                "photoPath": "prev/users/template1/town_2.jpg",
+                "alt": ""
+              },
+              {
+                "photoPath": "prev/users/template1/town_1.jpg",
+                "alt": ""
+              },
+              {
                 "photoPath": "prev/users/template1/beach_1.jpg",
-                "alt": "beach_alt"
+                "alt": ""
               },
               {
                 "photoPath": "prev/users/template1/beach_2.jpg",
-                "alt": "beach_alt"
+                "alt": ""
               },
               {
                 "photoPath": "prev/users/template1/beach_3.jpg",
-                "alt": "beach_alt"
+                "alt": ""
               },
               {
                 "photoPath": "prev/users/template1/beach_4.jpg",
-                "alt": "beach_alt"
+                "alt": ""
               },
               {
                 "photoPath": "prev/users/template1/beach_5.jpg",
-                "alt": "beach_alt"
+                "alt": ""
               },
               {
                 "photoPath": "prev/users/template1/beach_6.jpg",
-                "alt": "beach_alt"
-              },
-              {
-                "photoPath": "prev/users/template1/beach_6.jpg",
-                "alt": "beach_alt"
-              },
-              {
-                "photoPath": "prev/users/template1/beach_6.jpg",
-                "alt": "beach_alt"
-              }              
+                "alt": ""
+              }
             ]
           }
         }
@@ -521,10 +189,10 @@
         {
           "kind": "leaflet-map",
           "content": {
-            "address": "Achterstr. 3, 17459 Koserow",
-            "lat": 54.0483609,
-            "long": 13.9965374,
-            "zoom": 16
+            "address": "Usedom",
+            "lat": 53.9889945,
+            "long": 13.8813083,
+            "zoom": 11
           }
         }
       ]
