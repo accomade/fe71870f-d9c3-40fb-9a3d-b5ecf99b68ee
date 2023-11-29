@@ -4,16 +4,6 @@
       "key": "home",
       "path": "/",
       "external": false
-    },
-    {
-      "key": "koserow",
-      "path": "http://www.koserower.de",
-      "external": true
-    },
-    {
-      "key": "usedom",
-      "path": "http://inselusedom.de",
-      "external": true
     }
   ],
   "footer": [
