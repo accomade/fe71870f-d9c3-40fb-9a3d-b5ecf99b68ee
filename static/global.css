@@ -1,5 +1,6 @@
-:root {
 
+:root {
+  /* Colors for tables on the site, bg stands for background */
   --table-bg-color-odd: rgb(243, 243, 243);
   --table-bg-color-even: rgb(226, 226, 226);
   --table-font-color-odd: black;
@@ -9,33 +10,45 @@
   --table-footer-bg-color: rgb(37, 37, 37);
   --table-footer-font-color: rgb(243, 243, 243);
   
+  /* Colors for Links */
   --picture-link-bg-color: rgba(51, 51, 51, 0.8);
   --picture-link-font-color: rgb(168, 194, 250);
   --external-link-font-color: rgb(105, 152, 252);
 
+  /* The border color used for elements that have borders. */
   --main-border: 1px solid rgb(2, 48, 71);
+  
+  /* The primary background color used for the site. */
   --main-bg-color: white;
+  /* The primary font color used for the site */
   --main-font-color: #070707;
+  
+  /* The color used when something is not available. */
   --not-color: #c50000;
   
+  /* The nav area background and font colors */
   --nav-bg-color: rgba(7,7,7, 0.8);
   --nav-font-color: white; 
 
+  /* The font color for the title on the landing page */
   --title-font-color: white;
   
+  /* The footer colors */
   --footer-font-color: white;
   --footer-bg-color: #070707;
 
+  /* The header colors, on pages other than the landing page */
   --header-font-color: white;
   --header-bg-color: #070707;
 }
 
+/* Setting the fonts of your sites to the variables, the actual fonts that will be used, can be changed in the fonts section of your site. There it's ensured, that the fonts will be installed properly. */
 body,html {
   font-family: var(--main-font-family, 'sans-serif');
   font-variant: var(--main-font-variant, 'small-caps');
-  
 }
 
+/* Just basic settings, that ensure consistent rendering. */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -54,11 +67,13 @@ body,html {
   padding: 0;
 }
 
+/* Space around horizontal rulers */
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
+/* Styling for level 4 headers */
 h4 {
   font-family: var(--header-font-family, 'sans-serif');
   font-variant: var(--header-font-variant, 'small-caps');
@@ -68,6 +83,8 @@ h4 {
   margin-top: 0.4rem;
 } 
 
+
+/* Styling for level 3 headers */
 h3 {
   font-family: var(--header-font-family, 'sans-serif');
   font-variant: var(--header-font-variant, 'small-caps');
@@ -77,6 +94,7 @@ h3 {
   margin-top: 1rem;
 } 
 
+/* Styling for level 2 headers */
 h2 {
   font-family: var(--header-font-family, 'sans-serif');
   font-variant: var(--header-font-variant, 'small-caps');
@@ -85,6 +103,8 @@ h2 {
   margin-top: 1.2rem;
 } 
 
+
+/* Styling for level 1 headers */
 h1 {
   font-family: var(--header-font-family, 'sans-serif');
   font-variant: var(--header-font-variant, 'small-caps');
@@ -93,11 +113,13 @@ h1 {
   margin-top: 1.2rem;
 } 
 
+/* Styling for ordered lists */
 ol {
   padding-left: 0.5rem;
   margin: 1rem;
 }
 
+/* Styling for bullet lists */
 ul {
   margin-left: 1rem;
   padding-left: 0.2rem;
