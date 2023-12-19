@@ -19,6 +19,9 @@ const config = {
 				"/terms",
 			]
 		},
+		paths: {
+			relative: false,
+		},
 	}
 };
 
