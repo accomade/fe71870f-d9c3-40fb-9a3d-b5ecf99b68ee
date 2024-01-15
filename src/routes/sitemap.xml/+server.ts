@@ -1,20 +1,9 @@
 export const prerender = true
 
-import accos from '$lib/conf/accos'
 
 import * as fs from 'fs';
 const deployDate = fs.readFileSync('./DEPLOY_DATE', { encoding: 'utf8', flag: 'r' })
 
-
-let accoStrings = ''
-accos.forEach( (a) => {
-  accoStrings += `
-  <url>
-    <loc>https://accoma.de${a.path}</loc>
-    <lastmod>${deployDate.trim()}</lastmod>
-  </url>
-  `
-})
 
 export async function GET() {
 	return new Response(
@@ -45,7 +34,6 @@ export async function GET() {
 				<loc>https://accoma.de/accomodations</loc>
 				<lastmod>${deployDate.trim()}</lastmod>
 			</url>
-			${accoStrings}
 		</urlset>`.trim(),
 		{
 			headers: {
