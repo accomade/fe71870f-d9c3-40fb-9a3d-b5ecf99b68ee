@@ -26,8 +26,8 @@ export interface TextBlock {
   content: {
     ref: string
     minHeight?: string
-    minFontSize?: string
-    maxFontSize?: string
+    headerFontSize?: string
+    textFontSize?: string
   }
 }
 
