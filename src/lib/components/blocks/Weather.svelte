@@ -23,7 +23,7 @@
   })
 
   $: {
-    if(initialLoadDone) {
+    if(initialLoadDone && $currentLang) {
       document.getElementById('weatherwidget-io-js')?.remove();
       load(callback, window);
     }
