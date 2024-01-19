@@ -5,13 +5,19 @@
   import { Banner } from 'gdpr-cooco-banner';
   
   import { cookieSettings } from '$lib/conf'
-  import { currentLang } from '$lib/stores/lang';
+  import { initLangStore, currentLang } from '$lib/stores/lang';
   import { cookieSelection } from '$lib/stores/cookies';
 
   // Here is an example of +layout.svelte file
   import { installTwicPics } from "@twicpics/components/sveltekit";
   import "@twicpics/components/style.css";
   
+  import type { LayoutData } from './$types';
+  
+  export let data: LayoutData;
+  
+  initLangStore(data?.lang)
+
   installTwicPics( {
       "domain": `https://accomade.twic.pics`,
   } );
